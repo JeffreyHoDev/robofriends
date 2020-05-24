@@ -1,0 +1,15 @@
+You can run npm run build according to the json.package,
+it will help build an optimized folder which can be deploy
+to server on internet
+
+In package.json, if you put the version ^ it will only update
+those version with minor changes - minor release (the middle ver). Unless you write 
+> it will update major changes version
+
+update by typing npm update
+you may need to do audit fix if there are vulnerabilities
+but be careful..
+
+npm audit fix --force
+
+prefer just update your json file for any updating
